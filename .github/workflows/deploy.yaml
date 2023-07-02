@@ -34,7 +34,7 @@ jobs:
           # Need to update application_name, environment_name, existing_bucket_name, and region
           application_name: multi-docker
           environment_name: Multi-docker-env
-          existing_bucket_name: elasticbeanstalk-us-east-1-923445559289
+          existing_bucket_name: elasticbeanstalk-us-east-2-057249769320
           region: us-east-2
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
